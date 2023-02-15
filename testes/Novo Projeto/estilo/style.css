@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+@font-face {
+    font-family: 'Cleanex';
+    src: url('../fontes/AmaticSC-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #ade0e0;
+    --cor1: #91CACC;
+    --cor2: #3EC4D6;
+    --cor3: #51A7BD;
+    --cor4: #50AED4;
+    --cor5: #4D9CC9;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Archivo Narrow', cursive;
+    --fonte-cleanex: 'Cleanex', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;   
+}
+
+nav {
+    background-color: var(--cor5);
+}

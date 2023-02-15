@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: crimson;
+}
+li{
+    color:darkslateblue;
+}
